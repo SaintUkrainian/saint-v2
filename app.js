@@ -36,12 +36,6 @@ timeLine
         0.5,
         { opacity: 0, x: 40 },
         { opacity: 1, x: 0, ease: Power2.easeInOut }
-    )
-    .fromTo(
-        scrollDownText,
-        1.5,
-        { opacity: 0, x: 30 },
-        { opacity: 1, x: 0, ease: Power2.easeInOut }
     );
 
 window.onscroll = () => {
