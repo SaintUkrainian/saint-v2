@@ -15,7 +15,7 @@ timeLine
         1.5,
         { x: "-100%" },
         { x: "0%", ease: Power2.easeInOut },
-        "+=2.2"
+        "+=1.8"
     )
     .fromTo(
         sections,

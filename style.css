@@ -132,49 +132,49 @@ section#my-contact-info{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: fill-logo 0.5s ease forwards 3s;
+    animation: fill-logo 0.5s ease forwards 2.6s;
 }
 
 #logo path:nth-child(1) {
     stroke-dasharray: 534;
     stroke-dashoffset: 534;
-    animation: anim-logo 2s forwards ease;
+    animation: anim-logo 1.4s forwards ease;
 }
 
 #logo path:nth-child(2) {
     stroke-dasharray: 534;
     stroke-dashoffset: 534;
-    animation: anim-logo 2s forwards ease 0.3s;
+    animation: anim-logo 1.4s forwards ease 0.2s;
 }
 
 #logo path:nth-child(3) {
     stroke-dasharray: 534;
     stroke-dashoffset: 534;
-    animation: anim-logo 2s forwards ease 0.6s;
+    animation: anim-logo 1.4s forwards ease 0.4s;
 }
 
 #logo path:nth-child(4) {
     stroke-dasharray: 534;
     stroke-dashoffset: 534;
-    animation: anim-logo 2s forwards ease 0.9s;
+    animation: anim-logo 1.4s forwards ease 0.6s;
 }
 
 #logo path:nth-child(5) {
     stroke-dasharray: 534;
     stroke-dashoffset: 534;
-    animation: anim-logo 2s forwards ease 1.2s;
+    animation: anim-logo 1.4s forwards ease 0.8s;
 }
 
 #logo path:nth-child(6) {
     stroke-dasharray: 534;
     stroke-dashoffset: 534;
-    animation: anim-logo 2s forwards ease 1.5s;
+    animation: anim-logo 1.4s forwards ease 1s;
 }
 
 #logo path:nth-child(7) {
     stroke-dasharray: 534;
     stroke-dashoffset: 534;
-    animation: anim-logo 2s forwards ease 1.8s;
+    animation: anim-logo 1.4s forwards ease 1.2s;
 }
 
 @keyframes anim-logo {
