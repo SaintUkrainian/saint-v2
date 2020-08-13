@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdnjs.﻿cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="container"></div>
+        <header>
+            <div class="nav-bar-container">
+                <ul id="nav-bar-items">
+                    <li class="nav-bar-item"><a href="#my-info">About me</a></li>
+                    <li class="nav-bar-item"><a href="#my-skills">Skills</a></li">
+                    <li class="nav-bar-item"><a href="#my-skillpath">Skill path</a></li>
+                    <li class="nav-bar-item"><a href="#my-contact-info">Contact info</a></li>
+                </ul>
+            </div>
+            <svg
+                id="logo"
+                width="459"
+                height="69"
+                viewBox="0 0 459 69"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M89.488 1.088L70.096 68H60.304L44.752 14.144L28.624 68L18.928 68.096L0.208008 1.088H9.52001L24.112 57.824L40.24 1.088H50.032L65.392 57.632L80.08 1.088H89.488Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                />
+                <path
+                    d="M107.784 8.192V30.56H132.168V37.76H107.784V60.8H135.048V68H99.0483V0.991997H135.048V8.192H107.784Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                />
+                <path
+                    d="M157.003 60.896H180.427V68H148.267V1.088H157.003V60.896Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                />
+                <path
+                    d="M186.441 34.496C186.441 27.968 187.913 22.112 190.857 16.928C193.801 11.68 197.801 7.584 202.857 4.64C207.977 1.696 213.641 0.223999 219.849 0.223999C227.145 0.223999 233.513 1.984 238.953 5.504C244.393 9.024 248.361 14.016 250.857 20.48H240.393C238.537 16.448 235.849 13.344 232.329 11.168C228.873 8.992 224.713 7.904 219.849 7.904C215.177 7.904 210.985 8.992 207.273 11.168C203.561 13.344 200.648 16.448 198.536 20.48C196.424 24.448 195.368 29.12 195.368 34.496C195.368 39.808 196.424 44.48 198.536 48.512C200.648 52.48 203.561 55.552 207.273 57.728C210.985 59.904 215.177 60.992 219.849 60.992C224.713 60.992 228.873 59.936 232.329 57.824C235.849 55.648 238.537 52.544 240.393 48.512H250.857C248.361 54.912 244.393 59.872 238.953 63.392C233.513 66.848 227.145 68.576 219.849 68.576C213.641 68.576 207.977 67.136 202.857 64.256C197.801 61.312 193.801 57.248 190.857 52.064C187.913 46.88 186.441 41.024 186.441 34.496Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                />
+                <path
+                    d="M294.197 68.672C287.989 68.672 282.325 67.232 277.205 64.352C272.085 61.408 268.021 57.344 265.013 52.16C262.069 46.912 260.597 41.024 260.597 34.496C260.597 27.968 262.069 22.112 265.013 16.928C268.021 11.68 272.085 7.616 277.205 4.736C282.325 1.792 287.989 0.319996 294.197 0.319996C300.469 0.319996 306.165 1.792 311.285 4.736C316.405 7.616 320.437 11.648 323.381 16.832C326.325 22.016 327.797 27.904 327.797 34.496C327.797 41.088 326.325 46.976 323.381 52.16C320.437 57.344 316.405 61.408 311.285 64.352C306.165 67.232 300.469 68.672 294.197 68.672ZM294.197 61.088C298.869 61.088 303.061 60 306.773 57.824C310.549 55.648 313.493 52.544 315.605 48.512C317.781 44.48 318.869 39.808 318.869 34.496C318.869 29.12 317.781 24.448 315.605 20.48C313.493 16.448 310.581 13.344 306.869 11.168C303.157 8.992 298.933 7.904 294.197 7.904C289.461 7.904 285.237 8.992 281.525 11.168C277.813 13.344 274.869 16.448 272.693 20.48C270.581 24.448 269.525 29.12 269.525 34.496C269.525 39.808 270.581 44.48 272.693 48.512C274.869 52.544 277.813 55.648 281.525 57.824C285.301 60 289.525 61.088 294.197 61.088Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                />
+                <path
+                    d="M407.202 1.568V68H398.466V18.464L376.385 68H370.242L348.065 18.368V68H339.329V1.568H348.737L373.314 56.48L397.889 1.568H407.202Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                />
+                <path
+                    d="M430.753 8.192V30.56H455.137V37.76H430.753V60.8H458.017V68H422.017V0.991997H458.017V8.192H430.753Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                />
+            </svg>
+            <h3>Scroll down for more!</h3>
+        </header>
+        <main>
+            <hr></hr>
+            <section id="my-info">
+                <div class="section-name">
+                    <h1>About me</h1>
+                </div>
+            </section>
+            <hr></hr>
+            <section id="my-skills">
+                <div class="section-name">
+                    <h1>Skills</h1>
+                </div>
+            </section>
+            <hr></hr>
+            <section id="my-skillpath">
+                <div class="section-name">
+                    <h1>Skillpath</h1>
+                </div>
+            </section>
+            <hr></hr>
+            <section id="my-contact-info">
+                <div class="section-name">
+                    <h1>Contact info</h1>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
