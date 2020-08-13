@@ -47,8 +47,8 @@ timeLine
 window.onscroll = () => {
     let currentScrollPos = window.pageYOffset;
 
-    if (currentScrollPos >= 969) {
-        navBar.style.top = "-50px";
+    if (currentScrollPos >= 387) {
+        navBar.style.top = "-70px";
     } else {
         navBar.style.top = "0px";
     }
