@@ -11,8 +11,8 @@ html {
 body {
     height: 100vh;
     width: 100%;
-    background:  #333;
-    font-family: 'Poppins', sans-serif;
+    background: #333;
+    font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -27,10 +27,10 @@ body {
     position: fixed;
     align-items: center;
     background-color: #5a3b81;
-    transition: top 0.5s
+    transition: top 0.5s;
 }
 
-#nav-bar-items{
+#nav-bar-items {
     position: relative;
     list-style: none;
     display: flex;
@@ -54,7 +54,7 @@ a {
     color: inherit;
 }
 
-.nav-bar-item:hover{
+.nav-bar-item:hover {
     color: #715692;
     border-color: #ad72f5;
     background-color: white;
@@ -74,7 +74,7 @@ header h3 {
     color: white;
 }
 
-.section-name h1{
+.section-name h1 {
     padding: 10px 10px;
     border-bottom: 2px solid white;
 }
@@ -84,11 +84,11 @@ section {
     width: 100%;
 }
 
-section#my-info{
+section#my-info {
     background-color: #67488d;
 }
 
-section#my-skills{
+section#my-skills {
     background: linear-gradient(#67488d, #573c77);
 }
 
@@ -96,8 +96,8 @@ section#my-skillpath {
     background-color: #573c77;
 }
 
-section#my-contact-info{
-    background: linear-gradient(#573c77,#371b58);
+section#my-contact-info {
+    background: linear-gradient(#573c77, #371b58);
 }
 
 .nav-btns {
@@ -107,7 +107,7 @@ section#my-contact-info{
     padding: 15px 10px;
 }
 
-.nav-btns a{
+.nav-btns a {
     align-self: center;
     border: 2px solid #ffffff;
     background-color: #715692;
@@ -116,7 +116,7 @@ section#my-contact-info{
     font-size: large;
     padding: 0px 10px;
 }
-.nav-btns a:hover{
+.nav-btns a:hover {
     color: #715692;
     border-color: #ad72f5;
     background-color: white;
@@ -185,12 +185,16 @@ section#my-contact-info{
 }
 
 @keyframes fill-logo {
-    from{
+    from {
         fill: transparent;
     }
-    to{
+    to {
         fill: white;
     }
 }
 
-
+@media screen and (max-width: 612px) {
+    .nav-bar-item {
+        font-size: 20px;
+    }
+}
