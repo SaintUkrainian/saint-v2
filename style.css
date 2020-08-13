@@ -76,6 +76,7 @@ header h3 {
 
 .section-name h1{
     padding: 10px 10px;
+    border-bottom: 2px solid white;
 }
 
 section {
