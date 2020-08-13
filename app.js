@@ -35,7 +35,8 @@ timeLine
         navBarItems,
         0.5,
         { opacity: 0, x: 40 },
-        { opacity: 1, x: 0, ease: Power2.easeInOut }
+        { opacity: 1, x: 0, ease: Power2.easeInOut },
+        "-=0.3"
     );
 
 window.onscroll = () => {
