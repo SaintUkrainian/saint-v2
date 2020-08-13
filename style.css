@@ -27,7 +27,7 @@ body {
     position: fixed;
     align-items: center;
     background-color: #5a3b81;
-    transition: top 0.3s
+    transition: top 0.5s
 }
 
 #nav-bar-items{
