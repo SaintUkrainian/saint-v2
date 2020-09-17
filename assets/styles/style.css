@@ -128,6 +128,47 @@ section#my-contact-info {
     flex-direction: row;
 }
 
+.about-me__container {
+    margin: 15pt;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20pt;
+    color: #eee;
+}
+
+.about-me__img {
+    width: 30rem;
+    height: 42rem;
+    justify-content: center;
+    display: flex;
+}
+
+.about-me__img img {
+    margin: auto;
+    width: 70%;
+    height: 75%;
+    border: 2px solid white;
+}
+
+
+.about-me__info {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-me__info p{
+
+    margin: auto;
+    
+}
+
+.about-me__info #linkedin {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 #logo {
     position: absolute;
     left: 50%;
@@ -193,7 +234,49 @@ section#my-contact-info {
     }
 }
 
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 1500px) {
+    .about-me__info {
+        font-size: 14pt;
+        text-align: start;
+        margin: 10pt;
+    }
+
+    .about-me__img {
+        display: flex;
+        height: 30rem;
+        width: 24rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        height: 200vh;
+        width: 100%;
+    }
+    .about-me__container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-me__img {
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about-me__info {
+        font-size: 18pt;
+        text-align: start;
+        margin: 10pt;
+    }
+
+    .about-me__img img{
+        height: 28rem;
+        width: 20rem;
+    }
+
     .nav-bar-item {
         font-size: 20px;
     }

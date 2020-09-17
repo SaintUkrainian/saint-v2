@@ -39,7 +39,7 @@ timeLine
         "-=0.3"
     );
 
-window.onscroll = () => {
+window.addEventListener("scroll", () => {
     let currentScrollPos = window.pageYOffset;
 
     if (currentScrollPos >= 387) {
@@ -47,4 +47,4 @@ window.onscroll = () => {
     } else {
         navBar.style.top = "0px";
     }
-};
+});
