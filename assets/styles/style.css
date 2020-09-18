@@ -92,7 +92,7 @@ section#my-skills {
     background: linear-gradient(#67488d, #573c77);
 }
 
-section#my-skillpath {
+section#my-portfolio {
     background-color: #573c77;
 }
 
@@ -145,28 +145,63 @@ section#my-contact-info {
 
 .about-me__img img {
     margin: auto;
-    width: 70%;
+    width: 75%;
     height: 75%;
     border: 2px solid white;
 }
 
-
 .about-me__info {
-
     display: flex;
     justify-content: center;
-    
 }
 
-.about-me__info p{
-
+.about-me__info p {
     margin: auto;
-    
 }
 
 .about-me__info #linkedin {
     text-decoration: underline;
     text-decoration-color: white;
+}
+
+.my-skills__body {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+}
+
+.my-skills__containers {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.my-skills__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.my-skills__skill {
+    display: flex;
+    justify-content: center;
+    margin: 10pt;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #76628d;
+    cursor: default;
+}
+
+.my-skill {
+    padding: 10px;
+    font-size: 18pt;
+}
+
+.my-skills__skill:hover {
+    border-color: #b893e2;
+    color: #b893e2;
 }
 
 #logo {
@@ -235,21 +270,6 @@ section#my-contact-info {
 }
 
 @media screen and (max-width: 1500px) {
-    .about-me__info {
-        font-size: 14pt;
-        text-align: start;
-        margin: 10pt;
-    }
-
-    .about-me__img {
-        display: flex;
-        height: 30rem;
-        width: 24rem;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 1200px) {
     section {
         height: 200vh;
         width: 100%;
@@ -258,7 +278,12 @@ section#my-contact-info {
         display: flex;
         flex-direction: column;
     }
-    
+
+    .my-skills__containers {
+        display: flex;
+        flex-direction: column;
+    }
+
     .about-me__img {
         display: flex;
         height: fit-content;
@@ -272,7 +297,7 @@ section#my-contact-info {
         margin: 10pt;
     }
 
-    .about-me__img img{
+    .about-me__img img {
         height: 28rem;
         width: 20rem;
     }
