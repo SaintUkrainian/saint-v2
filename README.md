@@ -1,2 +1,2 @@
 # https://saintukrainian.github.io/website/
-The second version of my web site is being developed because the first one isn't good for future maintaining.
+Upgraded version of my personal web-site, where you can find some info about me and my projects.
