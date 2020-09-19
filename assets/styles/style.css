@@ -129,7 +129,7 @@ section#my-contact-info {
 }
 
 .about-me__container {
-    margin: 15pt;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     font-size: 20pt;
@@ -204,6 +204,62 @@ section#my-contact-info {
     color: #b893e2;
 }
 
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-container__items img{
+    width: 30rem;
+    height: 15rem;
+    border: 2px solid #b893e2;
+    margin-bottom: 10pt;
+}
+
+.portfolio-container__items img:hover{
+    border-width: 4px;
+    border-color: #b893e2;
+}
+
+.portfolio-container__items {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.portfolio-container__items h1{
+    border-bottom: 1px solid white;
+    margin-bottom: 10pt;
+}
+
+#calculator {
+    width: 10rem;
+    height: 15rem;
+    margin: auto;
+    margin-top: 0px !important;
+}
+
+.link-github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+
+}
+
+.link-github a{
+    margin: auto;
+    font-size: larger;
+    color: white;
+}
+
+.link-github a:hover{
+    text-decoration: underline;
+}
+
 #logo {
     position: absolute;
     left: 50%;
@@ -270,6 +326,15 @@ section#my-contact-info {
 }
 
 @media screen and (max-width: 1500px) {
+    #my-portfolio {
+        height: fit-content;
+    }
+    
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     section {
         height: 200vh;
         width: 100%;
