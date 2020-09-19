@@ -159,10 +159,17 @@ section#my-contact-info {
     margin: auto;
 }
 
-.about-me__info #linkedin {
+#linkedin {
     text-decoration: underline;
     text-decoration-color: white;
 }
+
+#linkedin:hover {
+    color: #ccc;
+    text-decoration-color: #ccc;
+}
+
+
 
 .my-skills__body {
     display: flex;
@@ -325,8 +332,16 @@ section#my-contact-info {
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
     #my-portfolio {
+        height: fit-content;
+    }
+
+    #my-info {
+        height: fit-content;
+    }
+
+    #my-skills {
         height: fit-content;
     }
     
