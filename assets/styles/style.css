@@ -267,6 +267,36 @@ section#my-contact-info {
     text-decoration: underline;
 }
 
+.socials-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.socials-container a {
+    margin: auto;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 15px;
+    font-size: 24pt;
+}
+
+#my-contact-info {
+    height: 60vh;
+}
+
+#telegram:hover {
+    background-color: rgb(0, 94, 182);
+}
+
+#linkedin-contact:hover {
+    background-color: rgb(49, 182, 226);
+}
+
+#gmail:hover {
+    background-color: red;
+}
+
 #logo {
     position: absolute;
     left: 50%;
@@ -343,6 +373,20 @@ section#my-contact-info {
 
     #my-skills {
         height: fit-content;
+    }
+
+    #my-contact-info {
+        height: fit-content;
+    }
+
+    .socials-container {
+        display: flex;
+        /* flex-direction: column; */
+        margin-top: 10%;
+    }
+
+    .socials-container a {
+        margin-top: 20pt;
     }
     
     .portfolio-container {
